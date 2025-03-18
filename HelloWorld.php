@@ -1,6 +1,6 @@
 <?php
 
-echo "Hello, PHP CLI!\n";
+echo "Hello osafi, PHP CLI!\n";
 
 ?>
 
