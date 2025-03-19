@@ -8,8 +8,8 @@
  error_reporting(E_ALL);
  ini_set('display_errors', 1);
 
- $teller = 1;
- $maximum = 10;
+ $teller = 8;
+ $maximum = 15;
 
  echo "Teller is voor de while lus ".$teller."<br>";  
 
