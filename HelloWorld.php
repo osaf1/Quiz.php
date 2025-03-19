@@ -7,7 +7,7 @@
 //for ($i = 0; $i < 5; $i++) {echo $tekst;
 //}
 
-$tekst="Hello World!\n";
+$tekst="Hello, World!\n";
 
 echo $tekst;
 echo $tekst;
