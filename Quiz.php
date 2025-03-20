@@ -1,7 +1,9 @@
 <?php
+// Dit is een nieuwe wijziging
+
 
 // Willekeurig getal tussen 1 en 100 genereren
-$random = rand(1, 100);
+$random = rand(2, 100);
 $attempts = 0;
 
 echo "Welkom bij de raad-het-getal quiz! Typ een getal tussen 1 en 100 of 'stop' om te stoppen.\n";
