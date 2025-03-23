@@ -2,7 +2,7 @@
 
 
 $random = rand(1, 100);
-$attempts = 52;
+$attempts = 0;
 
 echo "Welkom bij de raad-het-getal Quiz! Typ een getal tussen 1 en 100 of 'stop' om te stoppen.\n";
 
