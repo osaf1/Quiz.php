@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizzeria Circulare Delicioso</title>
-  <link rel="stylesheet" href="style.css"> <!-- Externe CSS file -->
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
@@ -74,9 +74,9 @@ $totaalPrijs = 0;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
   if (isset($_POST["pizza"])){
-    $gekozenpizza = $_POST["pizza"];
-    $totaalPrijs += $pizzaPrijzen[$gekozenpizza];
-  }
+    $gekozenPizza = $_POST["pizza"];
+    $totaalPrijs += $pizzaPrijzen[$gekozenPizza];
+  }                      
   $extraBestelling = [];
   foreach ($extraKosten as $optie => $prijs){
     if (isset($_POST[$optie])){
